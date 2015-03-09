@@ -19,26 +19,44 @@ Once the project moves into development, the press release can be used as a touc
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
+  test: your life, your health, your test
+
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+
+  test benefits anyone who is sexually active by creating accountability and awareness about sexually transmitted diseases. 
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
+  test complies your most recent STD-related test results, vaccinations and medications privately and securely. Your private profile can then be shared or hidden at your discretion with your doctor and/or romantic partners at their request. test eliminates awkward conversations and promotes health education.  
+
 ## Problem ##
   > Describe the problem your product solves.
+
+  The Center of Disease Control estimates that 34% percent of Americans are currently infected with an STD (2013). Additionally, the CDC estimates 20 million new individual infections annually (2013). 
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
+  test helps you navigate this world by arming you with the information you need to make the choices that are right for you. Request to view the profile of a potential partner and make an informed decision. No need to guess. Just ask to see the test. 
+
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  
+  "test makes sexual health accessible. Never before has such a simple product made such a profound impact."
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
 
+  To get started, sign up at your next clinic visit. Your medical institution will create your profile with your next test results. Your profile will be hidden by default and must be explicity shared with another user. The username and password assigned at sign up will allow you to access and manage your profile. 
+
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  
+  "I remember those awkward conversations. Now I just ask for the test."
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+
+  When it comes to your health, why rely on anything but the facts? Sign up at your next test. Visit our FAQ's or fill out our contact form if you would like to learn more. 
