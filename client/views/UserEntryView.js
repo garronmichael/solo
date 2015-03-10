@@ -2,11 +2,11 @@
 var UserEntryView = Backbone.View.extend({
   // your code here!
 
-  tagName: 'div',
+  tagName: 'tr',
 
   className: "user",
 
-  template: _.template('<div class="name"><%= name %></div>'),
+  template: _.template('<td class="name"><%= name %></td>'),
 
   events: {
     'click': function() {

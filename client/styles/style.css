@@ -16,11 +16,10 @@ h1 {
 .user {
   display: inline-block;
   margin-left: 20px;
-  vertical-align: bottom;
 }
 
 .users {
-	text-align: center;
+  margin: auto;
 }
 
 .name {
@@ -32,6 +31,19 @@ h1 {
 	height: 150px;
 	width: 150px;
 	text-align: center;
-	vertical-align: bottom;
+}
 
+span {
+  font-family: Lobster, cursive;
+  font-size: 26px;
+}
+
+.current {
+  width: 75%;
+  margin: auto;
+}
+
+.copyright {
+	font-size: 12px;
+	text-align: center;
 }

@@ -1,6 +1,6 @@
 var UsersView = Backbone.View.extend({
 
-  tagName: "div",
+  tagName: "table",
 
   className: 'users',
 
