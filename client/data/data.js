@@ -1,8 +1,8 @@
 var userData = [
   {
     name: "Brad",
-    vaccines: {"Hepatitis A": "02-10-2013",
-               "Hepatitis B": "02-10-2013"},
+    vaccines: 'Hepatitis A: 02-10-2013, \
+               Hepatitis B: 02-10-2013',
     medications: {"Tetracycline": "03-15-2014"},
     tests: {"Hepatitis B": ["Negative", "03-15-2014"],
             "HIV": ["Negative", "03-15-2014"],

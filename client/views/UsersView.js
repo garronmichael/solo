@@ -4,7 +4,7 @@ var UsersView = Backbone.View.extend({
 
   initialize: function() {
     this.render();
-    this.collection.on('add remove', this.render, this);
+    // this.collection.on('add remove', this.render, this);
   },
 
   render: function(){
@@ -12,7 +12,7 @@ var UsersView = Backbone.View.extend({
     // see http://api.jquery.com/detach/
     this.$el.children().detach();
     this.$el.html('<th>Users</th>').append(
-      this.collection.map(function(song){
+      this.collection.map(function(user){
         return new UserEntryView({model: user}).render();
       })
     );

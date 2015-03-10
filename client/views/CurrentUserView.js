@@ -1,15 +1,15 @@
-var CurrentSongView = Backbone.View.extend({
+var CurrentUserView = Backbone.View.extend({
 
   tagName: 'header',
 
-  template: _.template('<h1>Only Aaliyah</h1><h3><%= artist %> <%= title %></h3>'),
+  template: _.template('<h3><%= name %></h3><div>(<%= name %>)</div><div><%= vaccines %></div><div><%= medications %></div><div><%= tests %></div>'),
 
   initialize: function() {
     this.render();
   },
 
-  setSong: function(song){
-    this.model = song;
+  setSong: function(user){
+    this.model = user;
     this.render();
   },
 
