@@ -5,5 +5,31 @@
 	<title>test</title>
 </head>
 <body>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+
+    <script src="data/data.js"></script>
+
+    <script src="models/UserModel.js"></script>
+    <script src="collections/Users.js"></script>
+    <script src="models/AppModel.js"></script>
+
+    <script src="views/CurrentUserView.js"></script>
+    <script src="views/UserEntryView.js"></script>
+    <script src="views/UsersView.js"></script>
+    <script src="views/AppView.js"></script>
+
+    <script>
+      $(function(){
+        // set up model objects
+        var library = new Users(userData);
+        var app = new AppModel({library: library});
+        // build a view for the top level of the whole app
+        var appView = new AppView({model: app});
+        // put the view onto the screen
+        $('body').append(appView.render());
+      });
+    </script>
 </body>
 </html>

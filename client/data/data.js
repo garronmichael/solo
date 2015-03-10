@@ -37,7 +37,7 @@ var userData = [
             "Gonorrhea": ["Negative", "03-15-2014"],
             "Trichomoniasis": ["Negative", "03-15-2014"],
             "Chlamydia": ["Negative", "03-15-2014"], 
-            "HPV": ["Negative", "03-15-2014"]};
+            "HPV": ["Negative", "03-15-2014"]}
   },
   {
     name: "Kip",
