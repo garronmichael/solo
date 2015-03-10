@@ -1,8 +1,8 @@
 var CurrentUserView = Backbone.View.extend({
 
-  tagName: 'header',
+  tagName: 'div',
 
-  template: _.template('<h3><%= name %></h3><div>(<%= name %>)</div><div><%= vaccines %></div><div><%= medications %></div><div><%= tests %></div>'),
+  template: _.template('<p><%= vaccines %></p><p><%= medications %></p><p><%= tests %></p>'),
 
   initialize: function() {
     this.render();

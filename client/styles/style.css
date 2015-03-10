@@ -1,7 +1,37 @@
 body {
-
+	background-color: #3399FF;
+	color: #fff;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-td {
-	width: 400px;
+h1 {
+	font-weight: 100;
+	text-align: center;
+	font-family: Lobster, cursive;
+	font-size: 130px;
+    border-bottom: 1px solid #fff;
+    margin-top: -20px;
+}
+
+.user {
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: bottom;
+}
+
+.users {
+	text-align: center;
+}
+
+.name {
+	background-color: #fff;
+	color: #3399FF;
+	border-radius: 50%;
+	font-size: 50px;
+	font-family: Lobster, cursive;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	vertical-align: bottom;
+
 }
