@@ -8,7 +8,7 @@ var CurrentUserView = Backbone.View.extend({
     this.render();
   },
 
-  setSong: function(user){
+  setUser: function(user){
     this.model = user;
     this.render();
   },

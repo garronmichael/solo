@@ -13,7 +13,8 @@ var AppModel = Backbone.Model.extend({
 
     params.library.on('showcase', function(user){
       this.set('currentUser', user);
+      console.log(user);
     }, this);
-    
+
   }
 });
