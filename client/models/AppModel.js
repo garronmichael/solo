@@ -2,7 +2,7 @@
 var AppModel = Backbone.Model.extend({
 
   initialize: function(params){
-    this.set('currentUser', new UserModel());
+    // this.set('currentUser', new UserModel());
 
     /* Note that 'this' is passed as the third argument. That third argument is
     the context. The 'play' handler will always be bound to that context we pass in.
@@ -11,7 +11,7 @@ var AppModel = Backbone.Model.extend({
     end up refering to the window. That's just what happens with all JS events. The handlers end up
     getting called from the window (unless we override it, as we do here). */
 
-    params.library.on('showcase', function(user){
+    params.users.on('showcase', function(user){
       this.set('currentUser', user);
     }, this);
 

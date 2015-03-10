@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/style.css"></link>
 </head>
 <body>
-    <h1>test</h1>
+    <header><h1>test</h1><header>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
     <script src="bower_components/backbone/backbone.js"></script>
@@ -26,8 +26,8 @@
     <script>
       $(function(){
         // set up model objects
-        var library = new Users(userData);
-        var app = new AppModel({library: library});
+        var userCollection = new Users(userData);
+        var app = new AppModel({users: userCollection});
         // build a view for the top level of the whole app
         var appView = new AppView({model: app});
         // put the view onto the screen

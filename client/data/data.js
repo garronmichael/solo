@@ -16,8 +16,9 @@ var userData = [
   {
     name: "Lucy",
     vaccines: 'Hepatitis A: 02-10-2013, \n \
-               Hepatitis B: 02-10-2013',
-    medications: 'Tetracycline: 03-15-2014',
+               Hepatitis B: 02-10-2013 \n \
+               HPV: 11-15-2014',
+    medications: 'N/A',
     tests: 'Hepatitis B: Negative, 03-15-2014, \n \
             HIV: Negative, 03-15-2014, \n \
             Syphilis: Negative, 03-15-2014, \n \
