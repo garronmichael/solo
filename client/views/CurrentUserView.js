@@ -15,6 +15,7 @@ var CurrentUserView = Backbone.View.extend({
   },
 
   render: function(){
+    if(this.model.attributes.tests === '') { return this.$el.html(''); }
     return this.$el.html(this.template(this.model.attributes));
   }
 

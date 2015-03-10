@@ -19,8 +19,8 @@ var UserModel = Backbone.Model.extend({
   enqueue: function(){
     this.trigger('enqueue', this);
   },
-  dequeue: function() {
-    this.trigger('dequeue', this);
+  blank: function() {
+    this.trigger('blank', this);
   },
   showcase: function(){
     this.trigger('showcase', this);

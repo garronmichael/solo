@@ -20,7 +20,8 @@ h1 {
 
 .user {
   display: inline-block;
-  margin-left: 20px;
+  margin: 0 20px 0 20px;
+  padding: 0;
 }
 
 .users {
@@ -52,3 +53,9 @@ span {
 	font-size: 12px;
 	text-align: center;
 }
+
+/*.selected {
+	border: 5px solid #000;
+	border-radius: 50%;
+
+}*/

@@ -25,6 +25,10 @@
 
     <script>
       $(function(){
+/////////////////////////////////////////////////////////////////
+      
+       // CLIENT-SIDE ONLY
+
         // set up model objects
         var userCollection = new Users(userData);
         var app = new AppModel({users: userCollection});
@@ -32,7 +36,17 @@
         var appView = new AppView({model: app});
         // put the view onto the screen
         $('body').append(appView.render());
-        $('body').append('<p class="copyright">test © 2015</p>');
+        $('body').append('<footer class="copyright">test © 2015<footer>');
+
+//////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////
+      
+       // WITH SERVER
+
+        // app.init();
+
+//////////////////////////////////////////////////////////////////
       });
     </script>
 </body>

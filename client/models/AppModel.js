@@ -2,7 +2,6 @@
 var AppModel = Backbone.Model.extend({
 
   initialize: function(params){
-    // this.set('currentUser', new UserModel());
 
     /* Note that 'this' is passed as the third argument. That third argument is
     the context. The 'play' handler will always be bound to that context we pass in.
@@ -13,7 +12,12 @@ var AppModel = Backbone.Model.extend({
 
     params.users.on('showcase', function(user){
       this.set('currentUser', user);
-    }, this);
+    }, this),
+
+    params.users.on('blank', function() {
+      this.set('currentUser', new UserModel());
+      console.log(this.$el);
+    }, this)
 
   }
 });

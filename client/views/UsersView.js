@@ -6,7 +6,6 @@ var UsersView = Backbone.View.extend({
 
   initialize: function() {
     this.render();
-    // this.collection.on('add remove', this.render, this);
   },
 
   render: function(){
@@ -18,6 +17,21 @@ var UsersView = Backbone.View.extend({
         return new UserEntryView({model: user}).render();
       })
     );
-  }
+  },
 
+  //below for server
+
+
+  // initialize: function(){
+  //   this.collection.on('sync', this.render, this);
+  // },
+
+  // render: function(){
+  //   this.collection.forEach(this.renderMessage, this);
+  // },
+
+  // renderUser: function(message){
+  //     var userView = new UserView({model: user});
+  //     this.$el.prepend(userView.render());
+  //   }
 });
